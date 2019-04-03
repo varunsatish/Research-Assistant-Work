@@ -1,7 +1,15 @@
+########################################################################################################
+# This script processes the Schich (2014) 'influential people' dataset
+# Author: Varun Satish, University of Sydney (vsat9038@uni.sydney.edu.au)
+# Conducted as part of research project for Jordi-Vidal Robert at the University of Sydney, School of 
+# Economics
+########################################################################################################
+
+
 import pandas as pd 
 import numpy as np
 
-#this script processes the Schich Freebase Dataset
+
 #reading in the data
 df = pd.read_csv('SchichDataS1_FB copy.csv', sep = ',')
 
